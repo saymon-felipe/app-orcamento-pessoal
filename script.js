@@ -97,6 +97,7 @@ function modalSuccess() {
         footerButton.classList.add("btn", "btn-success")
     }
     footerButton.innerHTML = "Voltar"
+    footerButton.onclick = function() {window.location.reload()}
 }
 
 let bd = new Bd()
