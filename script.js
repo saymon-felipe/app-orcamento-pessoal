@@ -95,6 +95,7 @@ function modalSuccess() {
     if (footerButton.classList == "btn", "btn-danger") {
         footerButton.classList.remove("btn", "btn-danger")
         footerButton.classList.add("btn", "btn-success")
+        footerButton.onclick = function() {window.location.reload()}
     }
     footerButton.innerHTML = "Voltar"
 }
